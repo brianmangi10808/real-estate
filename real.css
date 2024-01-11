@@ -1,0 +1,58 @@
+body{
+    background: red;
+    
+}
+
+.container-fluid {
+    background:lightblue;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+}
+
+ .profile {
+    margin-right: 500px;
+  }
+.navbar-brand{
+    margin-right: 40px;
+}
+.nav-item{
+    margin-right: 50px;
+}
+.romanTwo{
+    background-image:  url('/images/land3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.write{
+    font-size: 45px;
+    font-weight: 600;
+}
+#signupBtn{
+    background: green;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#signupBtn:hover{
+    background: lightgreen;
+}
+#loginBtn{
+    background: green;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#loginBtn:hover{
+    background: lightgreen;
+}
