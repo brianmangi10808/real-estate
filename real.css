@@ -1,58 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+
+
+
+
 body{
-    background: red;
+  font-family: 'Inter', sans-serif;
+    background-image: url('images/dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
     
 }
 
 .container-fluid {
     background:lightblue;
     width: 100%;
-    height: 70px;
+    height: 250px;
     padding-top: 20px;
 }
-.logo {
-    display: flex;
-    align-items: center;
-    margin-left: 10px; 
+.hnav-link active  {
+  margin-right: 20px; /* You can adjust the value to increase or decrease the spacing */
+}
+.dropdown-menu{
+ 
+  background-color: #fff;
+  width: 5px;
+ 
 }
 
- .profile {
-    margin-right: 500px;
-  }
-.navbar-brand{
-    margin-right: 40px;
+
+.form-control me-2{
+    display: flex;
+    margin-right: 70px;
+    margin-left: 60px;
+
 }
-.nav-item{
-    margin-right: 50px;
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400px;
+    color: grey;
+    margin-left: 15px;
+
 }
-.romanTwo{
-    background-image:  url('/images/land3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+/*.two {
+    min-height: 60vh;
+    background: red;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    height: 400px;
-    color: #fff;
-    font-size: 45px;
-    font-weight: 600;
-}
-.write{
-    font-size: 45px;
-    font-weight: 600;
-}
-#signupBtn{
+    display: flex;
+   
+    justify-content: space-between;
+   
+  }
+
+  .row {
+    display: flex;
+    
+  }
+
+  .col-md-4 {
+    width: 100%; /* Ensure each column takes the full width 
+  }
+
+  #colOne,
+  .colTwo,
+  .colThree {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 70vh;
+  }*/
+  /* Ensure the section starts at the top of the page */
+.two {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    gap: 50px;
+   
+  }
+  
+  /* Style for each column */
+  #colOne,
+  .colTwo,
+  .colThree {
+    background: #Fff;
+    text-align: center; /* Center the content if needed */
+    margin-bottom: 60px; /* Add space between columns */
+    position: relative;
+  }
+  
+  /* Style for images within columns */
+  #colOne img,
+  .colTwo img,
+  .colThree img {
+    display: block;
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: 50vh; /* Maintain aspect ratio */
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+ .prev,.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    color:black;
+    font-size: 25px;
+    cursor: pointer;
+   }
+   .prev:hover{
+   color: white;
+   background: green;
+   }
+   .next:hover{
+    color: white;
     background: green;
-    border-radius: 5px;
-    font-weight: 500;
+    }
+  
+   .prev{left: 10px;}
+   .next{right: 10px;}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #Fff;
 }
-#signupBtn:hover{
-    background: lightgreen;
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+   
 }
-#loginBtn{
-    background: green;
-    border-radius: 5px;
-    font-weight: 500;
+.socialmedia a{
+    margin-right: 15px;
 }
-#loginBtn:hover{
-    background: lightgreen;
+.d-flex{
+    background: #Fff;
 }
+
+    
